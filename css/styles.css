@@ -1,45 +1,16 @@
-header{
-  background: lime;
-  padding-top: 40px;
-  padding-bottom: 40px;
+/* STYLE PRESETS DO NOT ALTER THIS SECTION */
+h1, h2, h3, h4, h5, h6 {
+    margin-top:10px;
 }
 
-nav {
-  background: pink;
-  padding-top: 40px;
-  padding-bottom: 40px;
+p {
+    font-size:16px;
 }
 
-.left-item {
-  background: yellow;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  float: left;
-  width: 75%;
+.fab, .far {
+    font-size:30px;
+    margin-left:5px;
+    margin-right:5px;
 }
 
-.right-item {
-  background: cyan;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  float: left;
-  width: 25%;
-}
-
-.clearfix {
-  clear: both;
-}
-
-footer {
-  background: pink;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-@media screen only (max-width= 100px) and (min-width: 700px) {
-  header {
-    background: orange;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
+/* PLACE YOUR CUSTOM CODE HERE */
