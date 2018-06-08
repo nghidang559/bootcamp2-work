@@ -17,8 +17,12 @@ p {
 .logo {
   font-family: 'Satisfy', cursive;
   height: 60px;
-  /* background-color: white; */
+  background-color: white;
   color: red;
+}
+
+.navbar {
+  background-color:white;
 }
 
 .jumbotron {
@@ -40,10 +44,6 @@ p {
   padding-top:100px;
   padding-bottom:100px;
 }
-.slide-1 {
-  background: url('picture link');
-  background-size: cover;
-}
 
 .logoImg{
   height: 50px;
@@ -55,6 +55,10 @@ p {
   padding-bottom: 60px;
 }
 
+.adopt {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .footer-container {
   background-color: black;
   color: white;
@@ -65,8 +69,3 @@ p {
 .icon {
   color: white;
 }
-
-}
-
-font-family: 'Satisfy', cursive;
-font-family: 'Open Sans', sans-serif;
