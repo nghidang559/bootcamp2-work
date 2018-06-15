@@ -14,58 +14,109 @@ p {
 }
 
 /* PLACE YOUR CUSTOM CODE HERE */
+
+/* global styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.feature-text {
+    text-align: center;
+}
+
+/* nav */
+.navbar {
+    border-radius:0;
+    border:0;
+    margin-bottom:0;
+}
+
+.navbar-default {
+    background:#ffffff;
+}
+
 .logo {
-  font-family: 'Satisfy', cursive;
-  height: 60px;
-  background-color: white;
-  color: red;
+    width: 40px;
 }
 
-.navbar {
-  background-color:white;
+.navbar-brand h1 {
+	color: #FF827B;
+	font-family: 'Satisfy', cursive;
+    margin-top:0;
+    font-size:26px;
 }
 
+/* jumbotron */
 .jumbotron {
-  background-image: url("../img/hero.jpg");
-  background-position: center;
-  height: 400px;
-  color:white;
+	background-image: url("../img/hero.jpg");
+	background-size: cover;
+	background-position: center;
+    margin-bottom:0px;
 }
 
-.jumbotron p{
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-}
-.navbar {
-  margin-bottom:0;
-  border-radius:0;
-}
-.jumbotron {
-  padding-top:100px;
-  padding-bottom:100px;
+.jumbotron h2 {
+	color: white;
 }
 
-.logoImg{
-  height: 50px;
+/* cat section */
+#cat-section {
+    padding-top:60px;
+    padding-bottom:60px;
 }
 
-.container-adopt {
-  background-color: #eeeeee;
-  padding-top: 60px;
-  padding-bottom: 60px;
+/*dog section */
+#dog-section {
+    padding-top:60px;
+    padding-bottom:60px;
 }
 
-.adopt {
-  padding-top: 20px;
-  padding-bottom: 20px;
+/* services section */
+#services-section {
+    padding-top:60px;
+    padding-bottom:60px;
+    background:#eeeeee;
 }
-.footer-container {
-  background-color: black;
-  color: white;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-top: 40px;
 
-.icon {
-  color: white;
+/* CONTACT PAGE */
+.contact-section {
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+/* FOOTER */
+.footer-section {
+    background:#222222;
+    padding-top:60px;
+    padding-bottom:60px;
+    color:#ffffff;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.footer-section a {
+    color:#ffffff;
+}
+
+@media only screen and (min-width : 992px) {
+    .jumbotron {
+        padding-top:120px;
+        padding-bottom:120px;
+    }
+
+    .feature-text {
+        padding-top:40px;
+        text-align: left;
+    }
+
+    .footer-social {
+        text-align: left;
+    }
 }
